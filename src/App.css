@@ -1,0 +1,259 @@
+h1 {
+    font-size: 20px;
+}
+
+/* Navigation in the header */
+nav {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 13px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+
+nav ul li a:hover {
+    background: #5a4a6a;
+}
+
+/* Hero classes */
+
+/* Shine effect by Tomasz Makowski on mdbootstrap.com */
+.hero_title {
+    color: #d22e20;
+    font-size: 90px !important;
+    font-weight: bold;
+    font-family: monospace !important;
+    letter-spacing: 7px !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 64px;
+    padding-left: 20px;
+    padding-top: 130px;
+    padding-bottom: 19px;
+    background: linear-gradient(to right, #63405b 0,
+            hsl(22, 100%, 41%) 10%,
+            hsl(0, 100%, 21%) 20%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 600px;
+    }
+
+    100% {
+        background-position: 600px;
+    }
+}
+
+.hero {
+    min-height: 700px;
+
+    /*picture taken from Shutterstock.com by Dr. Morley Read */
+    background-image: url("/public/img/homebg.jpg");
+    background-size: cover;
+}
+
+header {
+    background: #c60a0a;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.hero button {
+    margin-left: 247px;
+}
+
+.hero h2 {
+    font-size: 26px;
+    padding-left: 173px;
+    padding-bottom: 4px;
+}
+
+/* Icon in the header */
+#icon {
+    display: inline-block;
+    width: 50%;
+}
+
+#icon img {
+    width: 60px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Map in the indvidual volcano page */
+.map-container {
+    height: 500px;
+    width: 65%;
+    position: absolute;
+    right: 0;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+/* Chart in the indvidual volcano page */
+.chart {
+    position: static;
+    height: 550px;
+    width: 70%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -150px;
+
+}
+
+;
+
+/* Volcano list page */
+.list-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.list-container h1 {
+
+    text-align: center;
+    font-size: 50px !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+/* Style for the table */
+.ag-theme-alpine {
+    height: 500px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ag-popup {
+    height: 0 !important;
+    min-height: 0 !important;
+}
+
+.dropdowns {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.dropdown label {
+    margin-right: 10px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+/* individual volcano page */
+.individual-volcano {
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 50vh;
+}
+
+.individual-volcano h2 {
+    margin-top: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.individual-volcano p {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.volcano-button {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* form pages */
+.form-container {
+    position: relative;
+    min-height: 60vh;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+
+.form-container h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+
+.form-container p {
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+
+.form-container button {
+    width: 336px;
+    margin-bottom: 20px;
+
+}
+
+/* home page */
+.home-page h2 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.home-page p {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 430px;
+    padding-right: 430px;
+    padding-bottom: 90px;
+    margin-bottom: -250px;
+}
+
+.home-page {
+    background-color: #ffdfdf;
+}
+
+footer {
+    margin-top: 250px;
+    position: static;
+    z-index: 10;
+    width: 100%;
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    color: #d8d8d8;
+}
